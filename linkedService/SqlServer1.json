@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-O160RJM\\YATAM;initial catalog=AdventureWorks2019;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2NjczZWUwNC0zZWE2LTQ0NjYtOGIyMS1hNjAzYjhjNjBhYzciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhosterintegrationruntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

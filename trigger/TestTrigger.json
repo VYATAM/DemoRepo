@@ -1,0 +1,25 @@
+{
+	"name": "TestTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_Copy",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2022-03-15T13:28:00",
+				"endTime": "2022-03-17T15:01:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

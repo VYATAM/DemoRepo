@@ -1,0 +1,9 @@
+{
+	"name": "YATAMADFDEMO",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fa124437-3284-44db-9cf0-41c311aa5697",
+		"tenantId": "03f18f57-36c2-40ae-aeb0-088675a345b9"
+	}
+}
